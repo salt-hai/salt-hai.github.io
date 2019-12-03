@@ -6,15 +6,30 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | SaltHai-blog</title>
+  <title>vue.js环境配置 | SaltHai-blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="SaltHai-blog">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="1)安装npm管理器（安装node.js)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vue.js环境配置">
+<meta property="og:url" content="http://yoursite.com/2019/12/02/vue.js的配置/index.html">
 <meta property="og:site_name" content="SaltHai-blog">
+<meta property="og:description" content="1)安装npm管理器（安装node.js)">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https://s2.ax1x.com/2019/12/03/QMZ7v9.png">
+<meta property="og:image" content="https://s2.ax1x.com/2019/12/03/QMZ2Bq.png">
+<meta property="og:image" content="https://s2.ax1x.com/2019/12/03/QMZgun.png">
+<meta property="og:image" content="https://s2.ax1x.com/2019/12/03/QMZfEV.png">
+<meta property="og:image" content="https://s2.ax1x.com/2019/12/03/QMZhNT.png">
+<meta property="og:image" content="https://s2.ax1x.com/2019/12/03/QMZRH0.png">
+<meta property="og:image" content="https://s2.ax1x.com/2019/12/03/QMZ44U.png">
+<meta property="og:image" content="https://s2.ax1x.com/2019/12/03/QMZICF.png">
+<meta property="og:image" content="https://s2.ax1x.com/2019/12/03/QMZo34.png">
+<meta property="og:image" content="https://s2.ax1x.com/2019/12/03/QMZTgJ.png">
+<meta property="og:updated_time" content="2019-12-03T07:26:27.075Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SaltHai-blog">
+<meta name="twitter:title" content="vue.js环境配置">
+<meta name="twitter:description" content="1)安装npm管理器（安装node.js)">
+<meta name="twitter:image" content="https://s2.ax1x.com/2019/12/03/QMZ7v9.png">
   
     <link rel="alternative" href="/atom.xml" title="SaltHai-blog" type="application/atom+xml">
   
@@ -144,178 +159,170 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-vue.js的配置" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      vue.js环境配置
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/12/02/vue.js的配置/" class="archive-article-date">
+
+        
+        <a href="/2019/12/02/vue.js的配置/" class="archive-article-date">
   	<time datetime="2019-12-02T13:29:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-02</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/12/02/vue.js的配置/">vue.js环境配置</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="1-安装npm管理器（安装node-js"><a href="#1-安装npm管理器（安装node-js" class="headerlink" title="1)安装npm管理器（安装node.js)"></a>1)安装npm管理器（安装node.js)</h1><a id="more"></a>
 
-        <div class="article-info info-on-right">
-          
-          
+<p>打开node.js官网<a href="http://nodejs.cn/" target="_blank" rel="noopener">http://nodejs.cn/</a>   选择下载对应的版本，直接安装即可。</p>
+<p><img src="https://s2.ax1x.com/2019/12/03/QMZ7v9.png" alt="QMZ7v9.png"></p>
+<p>安装完成后打开cmd分别输入npm -v,node -v。能查看版本即代表安装成功。</p>
+<p><img src="https://s2.ax1x.com/2019/12/03/QMZ2Bq.png" alt="QMZ2Bq.png"></p>
+<h1 id="2-环境配置更换npm源"><a href="#2-环境配置更换npm源" class="headerlink" title="2)环境配置更换npm源"></a>2)环境配置更换npm源</h1><p>打开win10环境变量配置界面，创建一个NODE_PATH的新变量，值为nodejs的node_modules的路径。</p>
+<p><img src="https://s2.ax1x.com/2019/12/03/QMZgun.png" alt="QMZgun.png"></p>
+<p>打开cmd输入npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org。更换为国内的淘宝镜像源。" target="_blank" rel="noopener">https://registry.npm.taobao.org。更换为国内的淘宝镜像源。</a></p>
+<p><img src="https://s2.ax1x.com/2019/12/03/QMZfEV.png" alt="QMZfEV.png"></p>
+<h1 id="3）安装Vue"><a href="#3）安装Vue" class="headerlink" title="3）安装Vue"></a>3）安装Vue</h1><p>cmd输入install指令：npm install cnpm -g，全局安装cnpm</p>
+<p><img src="https://s2.ax1x.com/2019/12/03/QMZhNT.png" alt="QMZhNT.png"></p>
+<p>安装Vue:cnpm install vue</p>
+<p><img src="https://s2.ax1x.com/2019/12/03/QMZRH0.png" alt="QMZRH0.png"></p>
+<p>全局安装Vue官方命令行工具：cnpm install –global vue-cli</p>
+<p>选择自己喜欢的目录安装Vue工程,名字为 my-project:vue init webpack my-project。工程会做一些默认配置，回车即可。</p>
+<p><img src="https://s2.ax1x.com/2019/12/03/QMZ44U.png" alt="QMZ44U.png"></p>
+<p>安装完成即可看到如下：</p>
+<p><img src="https://s2.ax1x.com/2019/12/03/QMZICF.png" alt="QMZICF.png"></p>
+<p>cmd 进入工程目录，输入：cnpm install，cnpm run dev;</p>
+<p><img src="https://s2.ax1x.com/2019/12/03/QMZo34.png" alt="QMZo34.png"></p>
+<p>浏览器输入localhost:8080即可看到启动的Vue项目；</p>
+<p><img src="https://s2.ax1x.com/2019/12/03/QMZTgJ.png" alt="QMZTgJ.png"></p>
 
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/12/02/vue.js的配置/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/14/输入域名时发生了什么/" class="archive-article-date">
-  	<time datetime="2019-11-14T14:43:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-14</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/11/14/输入域名时发生了什么/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">输入域名时干了啥</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-安装npm管理器（安装node-js"><span class="toc-number">1.</span> <span class="toc-text">1)安装npm管理器（安装node.js)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-环境配置更换npm源"><span class="toc-number">2.</span> <span class="toc-text">2)环境配置更换npm源</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3）安装Vue"><span class="toc-number">3.</span> <span class="toc-text">3）安装Vue</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/11/14/输入域名时发生了什么/">输入域名时干了啥</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/09/11/测试图片/" class="archive-article-date">
-  	<time datetime="2019-09-11T12:56:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-11</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/09/11/测试图片/">测试图片</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/09/10/GitHub Page+Hexo博客绑定阿里云域名/" class="archive-article-date">
-  	<time datetime="2019-09-10T03:38:17.244Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-10</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/14/SpringBoot入门/" class="archive-article-date">
-  	<time datetime="2019-08-14T13:18:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-14</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/14/SpringBoot入门/">Spring Boot入门</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/07/第一篇文章/" class="archive-article-date">
-  	<time datetime="2019-08-07T13:29:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-07</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/07/第一篇文章/">莜萸</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -338,8 +345,8 @@ var _hmt = _hmt || [];
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: true,
